@@ -1,0 +1,107 @@
+:root {
+    --lime: #9cc751;
+    --forest: #224f10;
+    --soft: #eaffd0;
+    --jet_black: #0d0d0d;
+}
+
+body .fondo_menu {
+    background-color: var(--forest);
+}
+
+.fondo_menu a {
+    color: white;
+
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.subtitulo {
+    text-align: center;
+    color: var(--lime);
+    font-weight: bolder;
+
+}
+
+.titulos {
+    width: 250px;
+}
+
+.imagen {
+    width: 250px;
+    height: 350px;
+}
+
+
+
+.logo {
+    max-height: 80px;
+    width: auto;
+
+}
+
+.icono {
+    width: 150px;
+    height: 200px;
+}
+
+.minititulo {
+    color: var(--forest);
+}
+
+.texto {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.imagenes {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.texto2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: var(--forest);
+    padding: 10px;
+    color: white;
+
+}
+
+.logoFooter {
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.banner {
+    display: block;
+}
+
+.banner-mobile {
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .banner {
+        display: none;
+    }
+
+    .banner-mobile {
+        width: 100%;
+        margin: 10px auto;
+        display: block;
+        display: block;
+    }
+}
